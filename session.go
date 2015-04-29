@@ -11,7 +11,7 @@ import (
 	"syscall"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/riaken/riaken-core/rpb"
+	"github.com/9gel/riaken-core/rpb"
 )
 
 var ErrCannotRead error = errors.New("cannot read from a non-active or closed connection")

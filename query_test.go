@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/riaken/riaken-core/rpb"
+	"github.com/9gel/riaken-core/rpb"
 )
 
 // Example from http://docs.basho.com/riak/latest/dev/using/mapreduce/

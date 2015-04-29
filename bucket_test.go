@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/riaken/riaken-core/rpb"
+	"github.com/9gel/riaken-core/rpb"
 )
 
 func TestBucketListKeys(t *testing.T) {

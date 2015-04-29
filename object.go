@@ -4,7 +4,7 @@ import (
 	"errors"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/riaken/riaken-core/rpb"
+	"github.com/9gel/riaken-core/rpb"
 )
 
 type Object struct {

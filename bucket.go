@@ -2,7 +2,7 @@ package riaken_core
 
 import (
 	"github.com/golang/protobuf/proto"
-	"github.com/riaken/riaken-core/rpb"
+	"github.com/sendgrid/riaken-core/rpb"
 )
 
 type Bucket struct {

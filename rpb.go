@@ -7,7 +7,7 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/riaken/riaken-core/rpb"
+	"github.com/sendgrid/riaken-core/rpb"
 )
 
 var ErrZeroLength error = errors.New("response was only 0 bytes long")

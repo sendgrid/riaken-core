@@ -8,7 +8,7 @@ import (
 
 const PingRate time.Duration = time.Second * 10
 
-var ErrAllNodesDown error = errors.New("all nodes appear to be down")
+var ErrAllNodesDown = errors.New("all nodes appear to be down")
 
 type Client struct {
 	cluster  chan *Session

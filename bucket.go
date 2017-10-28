@@ -51,7 +51,7 @@ func (b *Bucket) ListKeys() (*rpb.RpbListKeysResp, error) {
 			return nil, err
 		}
 		b.streamState = 1
-
+		fallthrough
 		// Fall through and do an initial read as well
 	case 1:
 		out, err = b.session.executeRead()
